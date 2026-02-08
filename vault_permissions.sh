@@ -4,7 +4,7 @@ VAULT_DIR="$HOME/secure_vault"
 
 # Checking  vault existence
 if [ ! -d "$VAULT_DIR" ]; then
-    echo "❌ Error: secure_vault does not exist."
+    echo "Error: secure_vault does not exist."
     exit 1
 fi
 
