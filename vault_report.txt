@@ -1,0 +1,15 @@
+Secure Vault Security Report
+Generated on: Sun 08 Feb 2026 11:55:03 AM PST
+------------------
+ secure_vault directory exists
+
+logs.txt permissions: 644
+ Permissions OK
+
+secrets.txt permissions: 644
+ WARNING: secrets.txt permissions are insecure (expected 640)
+
+keys.txt permissions: 644
+ WARNING: keys.txt permissions are insecure (expected 600)
+
+Security scan completed.
